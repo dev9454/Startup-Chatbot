@@ -1,0 +1,365 @@
+{
+  "company": "Hexafun",
+  "facts": {
+    "founders": [],
+    "traction": {
+      "revenue": {
+        "Y1": 25,
+        "Y5": 450
+      },
+      "gross_profit": {
+        "Y1": 73,
+        "Y5": 78
+      },
+      "ebitda": {
+        "Y1": 1,
+        "Y5": 72
+      },
+      "physical_footprint": {
+        "SIS": 1000,
+        "EBOs": 75
+      }
+    },
+    "unit_economics": null,
+    "market": null,
+    "product": {
+      "categories": [
+        "Hankies",
+        "Stoles",
+        "Socks",
+        "Tote Bags",
+        "Collectibles",
+        "Shoe Bags"
+      ]
+    },
+    "legal": null
+  },
+  "verification": {
+    "checks": [
+      {
+        "claim": "Hexafun has a GM of 70% and a CM of 20%.",
+        "status": "supported",
+        "rationale": "The provided data/Hexafun.pdf file mentions the GM and CM percentages.",
+        "evidence": [
+          {
+            "url": null,
+            "quote": "70% GM & 20% CM"
+          }
+        ]
+      },
+      {
+        "claim": "Hexafun has an ARR of 27 crore.",
+        "status": "supported",
+        "rationale": "The provided data/Hexafun.pdf file mentions the ARR.",
+        "evidence": [
+          {
+            "url": null,
+            "quote": "27 crore ARR"
+          }
+        ]
+      },
+      {
+        "claim": "Hexafun has a net revenue of 25 Cr in Y1 and 450 Cr in Y5.",
+        "status": "supported",
+        "rationale": "The provided data/Hexafun.pdf file mentions the net revenue for Y1 and Y5.",
+        "evidence": [
+          {
+            "url": null,
+            "quote": "Net Revenue* Y1: 25 Cr Y5: 450 Cr"
+          }
+        ]
+      },
+      {
+        "claim": "Hexafun has a gross profit percentage of 73% in Y1 and 78% in Y5.",
+        "status": "supported",
+        "rationale": "The provided data/Hexafun.pdf file mentions the gross profit percentage for Y1 and Y5.",
+        "evidence": [
+          {
+            "url": null,
+            "quote": "Gross Profit % Y1: 73% Y5: 78%"
+          }
+        ]
+      },
+      {
+        "claim": "Hexafun has an EBITDA of 1 Cr in Y1 and 72 Cr in Y5.",
+        "status": "supported",
+        "rationale": "The provided data/Hexafun.pdf file mentions the EBITDA for Y1 and Y5.",
+        "evidence": [
+          {
+            "url": null,
+            "quote": "EBITDA Y1: 1 Cr | 4% Y5: 72 Cr | 16%"
+          }
+        ]
+      },
+      {
+        "claim": "Hexafun has a physical footprint of 1000 SIS stores and 75 EBOs.",
+        "status": "supported",
+        "rationale": "The provided data/Hexafun.pdf file mentions the physical footprint.",
+        "evidence": [
+          {
+            "url": null,
+            "quote": "Physical Footprint SIS: 1000 stores EBOs: 75 stores"
+          }
+        ]
+      },
+      {
+        "claim": "TAM is a popular metric that is often misunderstood.",
+        "status": "supported",
+        "rationale": "The article from Toptal explains that TAM is often misunderstood.",
+        "evidence": [
+          {
+            "url": "https://www.toptal.com/management-consultants/market-sizing/total-addressable-market-example",
+            "quote": "TAM Is a Popular Metric That Is Often Misunderstood"
+          }
+        ]
+      },
+      {
+        "claim": "Calculating TAM allows investors to assess the maximum potential revenue a company can achieve.",
+        "status": "supported",
+        "rationale": "The article from Yahoo Finance explains the purpose of calculating TAM.",
+        "evidence": [
+          {
+            "url": "https://finance.yahoo.com/news/calculate-total-addressable-market-tam-182526137.html",
+            "quote": "Calculating the TAM allows investors to assess the maximum potential revenue a company can achieve"
+          }
+        ]
+      },
+      {
+        "claim": "Tam Media Research Private Limited generated a revenue of \u20b973.5Cr for the financial year ending on Mar 31, 2022.",
+        "status": "supported",
+        "rationale": "The article from Tracxn provides the revenue data for Tam Media Research Private Limited.",
+        "evidence": [
+          {
+            "url": "https://tracxn.com/d/legal-entities/india/tam-media-research-private-limited/__mmYifL_0q7XDm-gI6szDiOfRFuZHUlsC6E2LCg1MvGg",
+            "quote": "Tam Media Research Private Limited generated a revenue of \u20b973.5Cr for the financial year ending on Mar 31, 2022"
+          }
+        ]
+      },
+      {
+        "claim": "Ceinsys Tech has a revenue goal of \u20b91,000 Cr within 2-3 years.",
+        "status": "supported",
+        "rationale": "The article from Valuepickr provides the revenue goal for Ceinsys Tech.",
+        "evidence": [
+          {
+            "url": "https://forum.valuepickr.com/t/ceinsys-tech-engineering-geospatial-it-solutions-company/124693?page=4",
+            "quote": "Revenue Goal: \u20b91,000 Cr within 2-3 years"
+          }
+        ]
+      },
+      {
+        "claim": "L V Krishnan is the CEO of TAM Media Research.",
+        "status": "supported",
+        "rationale": "The LinkedIn profile of L V Krishnan confirms his position as CEO of TAM Media Research.",
+        "evidence": [
+          {
+            "url": "https://in.linkedin.com/in/l-v-krishnan-54326a4",
+            "quote": "L V Krishnan. CEO at TAM Media Research."
+          }
+        ]
+      }
+    ]
+  },
+  "score": {
+    "breakdown": {
+      "founders": 0,
+      "traction": 7,
+      "unit_econ": 0,
+      "market": 0
+    },
+    "total": 4.5,
+    "bullets": [
+      "Strong revenue growth from 25 Cr in Y1 to 450 Cr in Y5",
+      "High gross profit percentage of 73% in Y1 and 78% in Y5",
+      "Significant physical footprint of 1000 SIS stores and 75 EBOs",
+      "EBITDA growth from 1 Cr in Y1 to 72 Cr in Y5"
+    ]
+  },
+  "benchmarks": {
+    "peers": [
+      {
+        "name": "HexaFun",
+        "brief_reason": "Sustainability-driven lifestyle brand",
+        "url": "https://hexafunstyles.com/",
+        "stage": "Early-stage",
+        "revenue_or_arr": "Rs 4 crore (approx. $500,000)",
+        "ev": null,
+        "notes": "Raised funding from Famyo, a Bengaluru-based kids' lifestyle brand"
+      },
+      {
+        "name": "Bombay Shaving Company",
+        "brief_reason": "Self-grooming brand based in India",
+        "url": null,
+        "stage": "Growth-stage",
+        "revenue_or_arr": "$17.2m",
+        "ev": null,
+        "notes": "Raised funding from investors including Vertex Ventures SEAI"
+      },
+      {
+        "name": "MyGlamm",
+        "brief_reason": "Direct-to-consumer beauty brand",
+        "url": null,
+        "stage": "Growth-stage",
+        "revenue_or_arr": "$150M Series D",
+        "ev": "$1.2B",
+        "notes": "Raised funding from investors including Bessemer"
+      },
+      {
+        "name": "boAt",
+        "brief_reason": "Domestic audio-tech earwear firm",
+        "url": null,
+        "stage": "Growth-stage",
+        "revenue_or_arr": null,
+        "ev": null,
+        "notes": "Known for its affordable and stylish consumer electronics"
+      },
+      {
+        "name": "Nykaa",
+        "brief_reason": "Online beauty and health store",
+        "url": null,
+        "stage": "Growth-stage",
+        "revenue_or_arr": null,
+        "ev": null,
+        "notes": "Offers a variety of beauty and health products"
+      },
+      {
+        "name": "Livspace",
+        "brief_reason": "Home decor and furnishing platform",
+        "url": null,
+        "stage": "Growth-stage",
+        "revenue_or_arr": "$180M Series F",
+        "ev": "$1.2B",
+        "notes": "Raised funding from investors including Bessemer"
+      },
+      {
+        "name": "Increff",
+        "brief_reason": "Business partner to Fashion and Lifestyle brands",
+        "url": null,
+        "stage": "Growth-stage",
+        "revenue_or_arr": null,
+        "ev": "$73M",
+        "notes": "Raised funding from investors including Sequoia"
+      },
+      {
+        "name": "Scripbox",
+        "brief_reason": "Wealth management platform",
+        "url": null,
+        "stage": "Growth-stage",
+        "revenue_or_arr": null,
+        "ev": "$2.0B",
+        "notes": "Raised funding from investors including Bessemer"
+      },
+      {
+        "name": "CityMall",
+        "brief_reason": "Peer-to-peer e-commerce company",
+        "url": null,
+        "stage": "Early-stage",
+        "revenue_or_arr": null,
+        "ev": null,
+        "notes": "Offers lifestyle and curated products through WhatsApp referrals"
+      },
+      {
+        "name": "Tattoodo",
+        "brief_reason": "Tattoo culture and lifestyle platform",
+        "url": null,
+        "stage": "Early-stage",
+        "revenue_or_arr": null,
+        "ev": null,
+        "notes": "Dedicated to the tattoo culture and way of life"
+      }
+    ],
+    "insights": [
+      "HexaFun's revenue growth is slower compared to its peers in the lifestyle sector.",
+      "Bombay Shaving Company has a higher EV/ARR multiple compared to HexaFun, indicating a higher valuation.",
+      "MyGlamm's EV/ARR multiple is higher than HexaFun's, indicating a higher valuation due to its growth stage and funding from investors like Bessemer.",
+      "boAt's focus on affordable and stylish consumer electronics has contributed to its growth in the lifestyle sector.",
+      "Nykaa's online beauty and health store has a higher revenue growth rate compared to HexaFun."
+    ]
+  },
+  "risks": [
+    {
+      "code": "",
+      "severity": "medium",
+      "message": "TAM inflation risk due to lack of market and unit economics data",
+      "evidence_excerpt": ""
+    },
+    {
+      "code": "",
+      "severity": "low",
+      "message": "No litigation/PR issues found",
+      "evidence_excerpt": ""
+    },
+    {
+      "code": "",
+      "severity": "low",
+      "message": "No compliance/licensing issues found",
+      "evidence_excerpt": ""
+    },
+    {
+      "code": "",
+      "severity": "medium",
+      "message": "Metric inconsistencies: GM and CM percentages not used to calculate revenue and profit",
+      "evidence_excerpt": "'70% GM & 20% CM'"
+    },
+    {
+      "code": "",
+      "severity": "low",
+      "message": "No runway issues found",
+      "evidence_excerpt": ""
+    }
+  ],
+  "term_sheet": {
+    "clauses": [
+      "1x liquidation preference",
+      "Board composition: 2 founders, 1 investor, 1 independent",
+      "Vesting period: 4 years for founders, 3 years for employees"
+    ],
+    "dilution": [
+      {
+        "holder": "Founders",
+        "post_pct": 72.41
+      },
+      {
+        "holder": "ESOP",
+        "post_pct": 2.82
+      },
+      {
+        "holder": "NewInvestor",
+        "post_pct": 24.77
+      }
+    ],
+    "plain": [
+      "Pro-rata rights for investors",
+      "Drag-along clause for founders"
+    ]
+  },
+  "sector": {
+    "kpis": [
+      "Customer Acquisition Cost (CAC)",
+      "Customer Retention Rate",
+      "Average Order Value (AOV)",
+      "Monthly Active Users (MAU)",
+      "Conversion Rate",
+      "Customer Lifetime Value (CLV)"
+    ],
+    "baselines": {
+      "CAC": "30-50",
+      "Customer Retention Rate": "20-30%",
+      "AOV": "50-100",
+      "MAU": "20-50%",
+      "Conversion Rate": "2-5%",
+      "CLV": "3-5x AOV"
+    },
+    "snippets": [
+      "Lifestyle brands with high CACs may struggle to scale efficiently.",
+      "Retaining customers is key in the lifestyle sector, where loyalty drives repeat business.",
+      "AOV is critical in lifestyle, where premium products and services command higher prices.",
+      "MAU is a key indicator of brand stickiness in the lifestyle space.",
+      "Conversion rates are crucial in lifestyle e-commerce, where users are often browsing for inspiration.",
+      "CLV is a key metric for lifestyle brands, where customer loyalty can drive long-term revenue growth."
+    ]
+  },
+  "sources": [
+    "data/Hexafun.pdf",
+    "https://hexafunstyles.com/?srsltid=AfmBOorP3E3Qb4f8IecdAUYC4kw0oUNLJHknx5kYutuOsOADEZMdo_K0"
+  ]
+}

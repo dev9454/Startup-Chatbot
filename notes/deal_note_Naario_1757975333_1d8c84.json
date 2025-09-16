@@ -1,0 +1,375 @@
+{
+  "company": "Naario",
+  "facts": {
+    "founders": [
+      {
+        "name": "Anamika Pandey",
+        "prev_experience": "BBdaily as New Initiatives Lead, Bigbasket",
+        "education": "NIT Warangal"
+      },
+      {
+        "name": "Vaanya Ranade",
+        "prev_experience": "Partners Lead",
+        "education": "Ashoka University"
+      },
+      {
+        "name": "Simran Shali",
+        "prev_experience": null,
+        "education": "Lady Irwin College"
+      },
+      {
+        "name": "Vandana Sharma",
+        "prev_experience": "Shaadi.com",
+        "education": null
+      },
+      {
+        "name": "Charul Chandak",
+        "prev_experience": "Nestle",
+        "education": "SPJIMR"
+      }
+    ],
+    "traction": [
+      {
+        "metric": "Gross Margin",
+        "value": null,
+        "period": "Apr'22- Dec'24"
+      },
+      {
+        "metric": "Revenue Split across Channels",
+        "value": null,
+        "period": null
+      },
+      {
+        "metric": "EBITDA Margin",
+        "value": null,
+        "period": "Apr'22- Dec'24"
+      }
+    ],
+    "unit_economics": [
+      {
+        "metric": "COGS",
+        "value": 35
+      },
+      {
+        "metric": "Platform Margin",
+        "value": 45
+      },
+      {
+        "metric": "Logistics",
+        "value": 35
+      },
+      {
+        "metric": "Naario Margin",
+        "value": 37
+      },
+      {
+        "metric": "Partners",
+        "value": null
+      },
+      {
+        "metric": "Big Basket",
+        "value": "~1 - 17 %"
+      },
+      {
+        "metric": "Amazon",
+        "value": "~7 - 14 %"
+      }
+    ],
+    "market": [
+      {
+        "metric": "Export Market",
+        "value": "$2 billion"
+      },
+      {
+        "metric": "B2B",
+        "value": null
+      },
+      {
+        "metric": "School & Hospital Canteens + Sports Institutes + Corporates",
+        "value": null
+      }
+    ],
+    "product": [
+      {
+        "name": "Naario Millet Muesli",
+        "description": null,
+        "weight": "350gms"
+      }
+    ],
+    "legal": []
+  },
+  "verification": {
+    "checks": [
+      {
+        "claim": "The global millet market size was valued at USD 11.24 billion in 2024 and is projected to grow from USD 11.76 billion in 2025 to USD 16.93 billion in 2033, exhibiting a CAGR of 4.66% during the forecast period (2025-2033).",
+        "status": "supported",
+        "rationale": "The claim is supported by the provided context.",
+        "evidence": [
+          {
+            "url": "https://straitsresearch.com/report/millet-market",
+            "quote": "The global millet market size was valued at USD 11.24 billion in 2024 and is projected to grow from USD 11.76 billion in 2025 to USD 16.93 billion in 2033, exhibiting a CAGR of 4.66% during the forecast period (2025-2033)."
+          }
+        ]
+      },
+      {
+        "claim": "The global millets market size was valued at USD 15.3 billion in 2024, with expectations to reach USD 23.4 billion by 2034, growing at a CAGR of 4.4%.",
+        "status": "supported",
+        "rationale": "The claim is supported by the provided context.",
+        "evidence": [
+          {
+            "url": "https://www.gminsights.com/industry-analysis/millets-market",
+            "quote": "The global millets market size was valued at USD 15.3 billion in 2024, with expectations to reach USD 23.4 billion by 2034, growing at a CAGR of 4.4%."
+          }
+        ]
+      },
+      {
+        "claim": "Asia-Pacific leads the global millet market, with over 60% share in 2025, primarily driven by India, China, and Nepal.",
+        "status": "supported",
+        "rationale": "The claim is supported by the provided context.",
+        "evidence": [
+          {
+            "url": "https://straitsresearch.com/report/millet-market",
+            "quote": "Asia-Pacific leads the global millet market, with over 60% share in 2025, primarily driven by India, China, and Nepal."
+          }
+        ]
+      },
+      {
+        "claim": "India remains the largest producer and consumer, supported by initiatives like the \u201cMillets for Health\u201d mission and state subsidies for millet farmers.",
+        "status": "supported",
+        "rationale": "The claim is supported by the provided context.",
+        "evidence": [
+          {
+            "url": "https://straitsresearch.com/report/millet-market",
+            "quote": "India remains the largest producer and consumer, supported by initiatives like the \u201cMillets for Health\u201d mission and state subsidies for millet farmers."
+          }
+        ]
+      },
+      {
+        "claim": "The B2B segment remains dominant, fueled by rising usage of millets in processed food, beverages, animal feed, and institutional catering.",
+        "status": "supported",
+        "rationale": "The claim is supported by the provided context.",
+        "evidence": [
+          {
+            "url": "https://www.gminsights.com/industry-analysis/millets-market",
+            "quote": "The B2B segment remains dominant, fueled by rising usage of millets in processed food, beverages, animal feed, and institutional catering."
+          }
+        ]
+      },
+      {
+        "claim": "The market is segmented into B2B and B2C and based on distribution channel.",
+        "status": "supported",
+        "rationale": "The claim is supported by the provided context.",
+        "evidence": [
+          {
+            "url": "https://www.gminsights.com/industry-analysis/millets-market",
+            "quote": "The market is segmented into B2B and B2C and based on distribution channel."
+          }
+        ]
+      },
+      {
+        "claim": "Millets are good sources of compounds with protein composition, and antioxidant and antimicrobial properties.",
+        "status": "supported",
+        "rationale": "The claim is supported by the provided context.",
+        "evidence": [
+          {
+            "url": "https://www.transparencymarketresearch.com/india-millet-based-packaged-food-market.html",
+            "quote": "Millets are good sources of compounds with protein composition, and antioxidant and antimicrobial properties."
+          }
+        ]
+      },
+      {
+        "claim": "Millet based food is beneficial for patients suffering from chronic diseases such as type 2 diabetes.",
+        "status": "supported",
+        "rationale": "The claim is supported by the provided context.",
+        "evidence": [
+          {
+            "url": "https://www.transparencymarketresearch.com/india-millet-based-packaged-food-market.html",
+            "quote": "Millet based food is beneficial for patients suffering from chronic diseases such as type 2 diabetes."
+          }
+        ]
+      },
+      {
+        "claim": "India was the leading exporter, with exports valued at USD 41 million.",
+        "status": "supported",
+        "rationale": "The claim is supported by the provided context.",
+        "evidence": [
+          {
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12111017/",
+            "quote": "India | 41 M"
+          }
+        ]
+      },
+      {
+        "claim": "Indonesia was the leading importer, with imports valued at USD 31.74 million.",
+        "status": "supported",
+        "rationale": "The claim is supported by the provided context.",
+        "evidence": [
+          {
+            "url": "https://fppn.biomedcentral.com/articles/10.1186/s43014-025-00316-1",
+            "quote": "Indonesia was the leading importer, with imports valued at $31.74 million (57.05 million metric tons)"
+          }
+        ]
+      },
+      {
+        "claim": "Millets will be a 1 lakh crore business in India, says Patanjali\u2019s Baba Ramdev.",
+        "status": "supported",
+        "rationale": "The claim is supported by the provided context.",
+        "evidence": [
+          {
+            "url": "https://www.fortuneindia.com/enterprise/millets-will-be-a-1-lakh-crore-business-in-india-says-patanjalis-baba-ramdev/107518",
+            "quote": "Millets will be a 1 lakh crore business in India, says Patanjali\u2019s Baba Ramdev"
+          }
+        ]
+      }
+    ]
+  },
+  "score": {
+    "breakdown": {
+      "founders": 6,
+      "traction": 0,
+      "unit_econ": 7,
+      "market": 4
+    },
+    "total": 5.5,
+    "bullets": [
+      "Strong founding team with diverse experience",
+      "Good unit economics with COGS, Platform Margin, and Logistics costs defined",
+      "Large and growing market with opportunities in export, B2B, and institutional catering",
+      "Unknown traction metrics and revenue split across channels"
+    ]
+  },
+  "benchmarks": {
+    "peers": [
+      {
+        "name": "Licious",
+        "brief_reason": "Fresh meat delivery platform",
+        "url": "https://www.licious.in/",
+        "stage": "Growth",
+        "revenue_or_arr": "\u20b9850 crore",
+        "ev": null,
+        "notes": "Annual revenue run rate of \u20b9850 crore"
+      },
+      {
+        "name": "Naario",
+        "brief_reason": "Retailer of flours, snacks, cereals, and beverages",
+        "url": "https://tracxn.com/d/companies/naario/__A8V6LY9voxvUQtY5lnnfq3bb-KBiki4m-ACJZj-LWaE",
+        "stage": "Early",
+        "revenue_or_arr": "\u20b941.1L",
+        "ev": "\u20b924.7Cr",
+        "notes": "Raised $336K in funding from Angel List and JRG Automotive Industries"
+      },
+      {
+        "name": "SUVI Foods",
+        "brief_reason": "Food and beverage company",
+        "url": "https://tracxn.com/d/companies/suvi-foods/__mDg82hqzY2h0aSS8d795bSKsQfwl5yHAbbo2tpqWEr8",
+        "stage": "Early",
+        "revenue_or_arr": null,
+        "ev": null,
+        "notes": "Top competitors include Tru Millets, Naario and Millet Bank"
+      },
+      {
+        "name": "Eekifoods",
+        "brief_reason": "Food and beverage company",
+        "url": "https://growthlist.co/food-and-beverage-startups/",
+        "stage": "Early",
+        "revenue_or_arr": "$7,000,000",
+        "ev": null,
+        "notes": "Raised $7,000,000 in Series A funding"
+      },
+      {
+        "name": "FitFeast",
+        "brief_reason": "Food and beverage company",
+        "url": "https://growthlist.co/food-and-beverage-startups/",
+        "stage": "Early",
+        "revenue_or_arr": "$642,407",
+        "ev": null,
+        "notes": "Raised $642,407 in Seed funding"
+      }
+    ],
+    "insights": [
+      "The Indian food and beverage industry is expected to grow at a CAGR of 11.19% to reach $79.65 billion by 2028.",
+      "The top 10 food companies in the world control an enormous chunk of consumer food products, with companies like PepsiCo, Nestle, and General Mills leading the way.",
+      "Food delivery services like Uber Eats, DoorDash, and Grubhub are leading the charge in sales, with Uber Eats becoming the most widely available food delivery service with the biggest userbase."
+    ]
+  },
+  "risks": [
+    {
+      "code": "",
+      "severity": "medium",
+      "message": "TAM inflation risk due to high growth projections in the millet market",
+      "evidence_excerpt": "The global millet market size was valued at USD 11.24 billion in 2024 and is projected to grow from USD 11.76 billion in 2025 to USD 16.93 billion in 2033, exhibiting a CAGR of 4.66% during the forecast period (2025-2033)."
+    },
+    {
+      "code": "",
+      "severity": "low",
+      "message": "Metric inconsistencies in unit economics",
+      "evidence_excerpt": "COGS: 35, Platform Margin: 45, Logistics: 35, Naario Margin: 37, Partners: None, Big Basket: ~1-17%, Amazon: ~7-14%"
+    },
+    {
+      "code": "",
+      "severity": "medium",
+      "message": "Runway risk due to lack of traction metrics",
+      "evidence_excerpt": "Gross Margin: None, Revenue Split across Channels: None, EBITDA Margin: None"
+    },
+    {
+      "code": "",
+      "severity": "low",
+      "message": "Compliance/licensing risk due to lack of legal information",
+      "evidence_excerpt": "Legal: []"
+    }
+  ],
+  "term_sheet": {
+    "clauses": [
+      "1x liquidation preference",
+      "Board composition: 2 founders, 1 investor, 1 independent",
+      "Vesting period: 4 years for founders, 3 years for employees"
+    ],
+    "dilution": [
+      {
+        "holder": "Founders",
+        "post_pct": 72.41
+      },
+      {
+        "holder": "ESOP",
+        "post_pct": 2.82
+      },
+      {
+        "holder": "NewInvestor",
+        "post_pct": 24.77
+      }
+    ],
+    "plain": [
+      "Pro-rata rights for investors",
+      "Drag-along clause for founders"
+    ]
+  },
+  "sector": {
+    "kpis": [
+      "Revenue Growth Rate",
+      "Customer Acquisition Cost (CAC)",
+      "Customer Retention Rate",
+      "Average Order Value (AOV)",
+      "Monthly Active Users (MAU)",
+      "Food Safety and Quality Control Metrics",
+      "Supply Chain Efficiency Metrics",
+      "Menu Engineering Metrics"
+    ],
+    "baselines": {
+      "Revenue Growth Rate": "15%-20% YoY",
+      "Customer Acquisition Cost (CAC)": "20-30% of AOV",
+      "Customer Retention Rate": "70%-80%",
+      "Average Order Value (AOV)": "$15-$25",
+      "Monthly Active Users (MAU)": "20%-30% of total users"
+    },
+    "snippets": [
+      "Foodtech startups are revolutionizing the way we produce, process, and consume food, with the global market expected to reach $250B by 2026.",
+      "The rise of meal kits and grocery delivery has led to a 30% increase in online food sales in the past year alone.",
+      "Food waste reduction is a critical issue, with 1/3 of all food produced globally going to waste each year.",
+      "Personalized nutrition and meal planning are becoming increasingly popular, with 75% of consumers willing to pay more for tailored health and wellness solutions."
+    ]
+  },
+  "sources": [
+    "data/NaarioDeck2025.pdf",
+    "https://www.naario.com/pages/why-choose-naario"
+  ]
+}

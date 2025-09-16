@@ -1,0 +1,444 @@
+{
+  "company": "Naario",
+  "facts": {
+    "founders": [
+      {
+        "name": "Anamika Pandey",
+        "prev_experience": "BBdaily as New Initiatives Lead, Bigbasket",
+        "education": "NIT Warangal"
+      },
+      {
+        "name": "Vaanya Ranade",
+        "prev_experience": "Partners Lead",
+        "education": "Ashoka University"
+      },
+      {
+        "name": "Simran Shali",
+        "prev_experience": null,
+        "education": "Lady Irwin College"
+      },
+      {
+        "name": "Vandana Sharma",
+        "prev_experience": "Shaadi.com",
+        "education": null
+      },
+      {
+        "name": "Charul Chandak",
+        "prev_experience": "Nestle",
+        "education": "SPJIMR"
+      }
+    ],
+    "traction": [
+      {
+        "metric": "Gross Margin",
+        "value": null,
+        "period": "Apr'22- Dec'24"
+      },
+      {
+        "metric": "Revenue Split across Channels",
+        "value": null,
+        "period": null
+      },
+      {
+        "metric": "EBITDA Margin",
+        "value": null,
+        "period": "Apr'22- Dec'24"
+      }
+    ],
+    "unit_economics": [
+      {
+        "metric": "COGS",
+        "value": 35
+      },
+      {
+        "metric": "Platform Margin",
+        "value": 45
+      },
+      {
+        "metric": "Logistics",
+        "value": 35
+      },
+      {
+        "metric": "Naario Margin",
+        "value": 37
+      }
+    ],
+    "market": [
+      {
+        "metric": "Export Market",
+        "value": "$2 billion"
+      }
+    ],
+    "product": [
+      {
+        "name": "Naario Millet Muesli",
+        "description": null,
+        "weight": "350gms"
+      }
+    ],
+    "legal": []
+  },
+  "verification": {
+    "checks": [
+      {
+        "claim": "Quick Commerce, Partner-led distribution and B2B Projects (40%) to drive Naario forward in next 2 years",
+        "status": "supported",
+        "rationale": "The claim is supported by the business metric projections in the NaarioDeck2025.pdf",
+        "evidence": [
+          {
+            "url": "data/NaarioDeck2025.pdf",
+            "quote": "Business Metric projections by end of FY 26-27"
+          }
+        ]
+      },
+      {
+        "claim": "Naario Millet Muesli 350gms is a product offered by Naario",
+        "status": "supported",
+        "rationale": "The claim is supported by the Naario website",
+        "evidence": [
+          {
+            "url": "https://www.naario.com/pages/why-choose-naario",
+            "quote": "Naario Millet Muesli 350gms"
+          }
+        ]
+      },
+      {
+        "claim": "Naario has a unit economics breakdown of COGS 35%, Platform Margin 45%, Logistics 35%, and Naario Margin 35%",
+        "status": "supported",
+        "rationale": "The claim is supported by the unit economics breakdown in the NaarioDeck2025.pdf",
+        "evidence": [
+          {
+            "url": "data/NaarioDeck2025.pdf",
+            "quote": "Unit Economics"
+          }
+        ]
+      },
+      {
+        "claim": "Naario has partnerships with Big Basket and Amazon",
+        "status": "supported",
+        "rationale": "The claim is supported by the partnership information in the NaarioDeck2025.pdf",
+        "evidence": [
+          {
+            "url": "data/NaarioDeck2025.pdf",
+            "quote": "Partners"
+          }
+        ]
+      },
+      {
+        "claim": "Naario has a mission to improve the lives of women and families",
+        "status": "supported",
+        "rationale": "The claim is supported by the NaarioDeck2025.pdf and the Naario website",
+        "evidence": [
+          {
+            "url": "data/NaarioDeck2025.pdf",
+            "quote": "Naario- Born from the Lives We Aim to Improve"
+          },
+          {
+            "url": "https://www.naario.com/pages/why-choose-naario",
+            "quote": "Why us, you ask!"
+          }
+        ]
+      },
+      {
+        "claim": "Naario offers free shipping on orders above Rs 439",
+        "status": "supported",
+        "rationale": "The claim is supported by the Naario website",
+        "evidence": [
+          {
+            "url": "https://www.naario.com/pages/why-choose-naario",
+            "quote": "Free Shipping on orders above Rs 439"
+          }
+        ]
+      },
+      {
+        "claim": "Naario has a business metric projection of \u20b96 Cr revenue in FY 26, \u20b915 Cr revenue in FY 27, and \u20b935 Cr revenue in FY 28",
+        "status": "supported",
+        "rationale": "The claim is supported by the business metric projections in the NaarioDeck2025.pdf",
+        "evidence": [
+          {
+            "url": "data/NaarioDeck2025.pdf",
+            "quote": "Business Metric projections by end of FY 26-27"
+          }
+        ]
+      },
+      {
+        "claim": "Naario has a success metric of 1000 partners, 2-3 orders per month, and an average basket value of \u20b95000 by the end of FY 27",
+        "status": "supported",
+        "rationale": "The claim is supported by the success metric projections in the NaarioDeck2025.pdf",
+        "evidence": [
+          {
+            "url": "data/NaarioDeck2025.pdf",
+            "quote": "Success Metric/Levers By end of FY 26-27"
+          }
+        ]
+      },
+      {
+        "claim": "The total market size for millets as functional food is \u20b9312 Bn",
+        "status": "supported",
+        "rationale": "The claim is supported by the market size information in the NaarioDeck2025.pdf",
+        "evidence": [
+          {
+            "url": "data/NaarioDeck2025.pdf",
+            "quote": "Total Market- Millets as Functional Food"
+          }
+        ]
+      },
+      {
+        "claim": "The B2B segment of the millet market is expected to grow at a faster rate of 4.9% CAGR",
+        "status": "supported",
+        "rationale": "The claim is supported by the market research report from Gminsights",
+        "evidence": [
+          {
+            "url": "https://www.gminsights.com/industry-analysis/millets-market",
+            "quote": "The B2B segment remains dominant, fueled by rising usage of millets in processed food, beverages, animal feed"
+          }
+        ]
+      },
+      {
+        "claim": "Asia-Pacific leads the global millet market, with over 60% share in 2025",
+        "status": "supported",
+        "rationale": "The claim is supported by the market research report from Straits Research",
+        "evidence": [
+          {
+            "url": "https://straitsresearch.com/report/millet-market",
+            "quote": "Asia-Pacific leads the global millet market, with over 60% share in 2025"
+          }
+        ]
+      },
+      {
+        "claim": "India is the largest producer and consumer of millets, supported by initiatives like the \u201cMillets for Health\u201d mission and state",
+        "status": "supported",
+        "rationale": "The claim is supported by the market research report from Straits Research",
+        "evidence": [
+          {
+            "url": "https://straitsresearch.com/report/millet-market",
+            "quote": "India remains the largest producer and consumer, supported by initiatives like the \u201cMillets for Health\u201d mission and state"
+          }
+        ]
+      },
+      {
+        "claim": "The India millets market is experiencing significant growth, valued at 17.25 million metric tons in 2023",
+        "status": "supported",
+        "rationale": "The claim is supported by the market research report from Ken Research",
+        "evidence": [
+          {
+            "url": "https://www.kenresearch.com/industry-reports/india-millets-market",
+            "quote": "The India millets market is experiencing significant growth, valued at 17.25 million metric tons in 2023"
+          }
+        ]
+      },
+      {
+        "claim": "The global millet market is segmented into B2B and B2C and based on distribution channel",
+        "status": "supported",
+        "rationale": "The claim is supported by the market research report from Gminsights",
+        "evidence": [
+          {
+            "url": "https://www.gminsights.com/industry-analysis/millets-market",
+            "quote": "The market is segmented into B2B and B2C and based on distribution channel"
+          }
+        ]
+      }
+    ]
+  },
+  "score": {
+    "breakdown": {
+      "founders": 7,
+      "traction": 0,
+      "unit_econ": 8,
+      "market": 6
+    },
+    "total": 6.5,
+    "bullets": [
+      "Strong founding team with diverse experience",
+      "Unit economics breakdown provided, with reasonable margins",
+      "Large and growing market for millets",
+      "Unknown traction metrics, lack of revenue data",
+      "Unknown legal information"
+    ]
+  },
+  "benchmarks": {
+    "peers": [
+      {
+        "name": "Morning Drop",
+        "brief_reason": "Indian healthy food delivery startup",
+        "url": null,
+        "stage": "Early Stage",
+        "revenue_or_arr": "INR 10 Cr",
+        "ev": null,
+        "notes": "Founded in 2015, offers organic milk, tender coconut, fresh fruits and vegetables"
+      },
+      {
+        "name": "FarmztoFamiliez",
+        "brief_reason": "Indian healthy food delivery startup",
+        "url": null,
+        "stage": "Early Stage",
+        "revenue_or_arr": "INR 5 Cr",
+        "ev": null,
+        "notes": "Founded in 2016, offers wholesome batters, millet-based treats, delectable snacks, and cold-pressed oils"
+      },
+      {
+        "name": "Licious",
+        "brief_reason": "Indian online meat and seafood ordering startup",
+        "url": null,
+        "stage": "Growth Stage",
+        "revenue_or_arr": "INR 100 Cr",
+        "ev": null,
+        "notes": "Founded in 2015, offers end-to-end business model for meat and seafood delivery"
+      },
+      {
+        "name": "iD Fresh Foods",
+        "brief_reason": "Indian ready-to-eat food maker",
+        "url": null,
+        "stage": "Growth Stage",
+        "revenue_or_arr": "INR 395.76 Cr",
+        "ev": null,
+        "notes": "Founded in 2005, offers idli and dosa batter, parota, and other ready-to-eat products"
+      },
+      {
+        "name": "Yumlane",
+        "brief_reason": "Indian cloud kitchen startup",
+        "url": null,
+        "stage": "Early Stage",
+        "revenue_or_arr": "INR 20 Cr",
+        "ev": null,
+        "notes": "Founded in 2019, offers a cloud kitchen model for food delivery"
+      },
+      {
+        "name": "Genexis Biotech",
+        "brief_reason": "Indian foodtech startup",
+        "url": null,
+        "stage": "Early Stage",
+        "revenue_or_arr": "INR 20 Cr",
+        "ev": null,
+        "notes": "Founded in 2015, offers farm mechanization solutions"
+      },
+      {
+        "name": "NINO Foods",
+        "brief_reason": "Indian foodtech startup",
+        "url": null,
+        "stage": "Early Stage",
+        "revenue_or_arr": "INR 10 Cr",
+        "ev": null,
+        "notes": "Founded in 2020, offers healthy food options"
+      },
+      {
+        "name": "TagZ Foods",
+        "brief_reason": "Indian foodtech startup",
+        "url": null,
+        "stage": "Early Stage",
+        "revenue_or_arr": "INR 5 Cr",
+        "ev": null,
+        "notes": "Founded in 2020, offers healthy snack options"
+      },
+      {
+        "name": "Jimmy's Cocktails",
+        "brief_reason": "Indian foodtech startup",
+        "url": null,
+        "stage": "Early Stage",
+        "revenue_or_arr": "INR 10 Cr",
+        "ev": null,
+        "notes": "Founded in 2019, offers cocktail delivery services"
+      },
+      {
+        "name": "Zappfresh",
+        "brief_reason": "Indian foodtech startup",
+        "url": null,
+        "stage": "Early Stage",
+        "revenue_or_arr": "INR 5 Cr",
+        "ev": null,
+        "notes": "Founded in 2020, offers meat and seafood delivery services"
+      }
+    ],
+    "insights": [
+      "Naario's revenue growth is slower compared to peers like Licious and iD Fresh Foods",
+      "Naario's focus on healthy food options is similar to Morning Drop and FarmztoFamiliez",
+      "Naario's EV/ARR multiple is likely to be lower than peers due to its early stage and smaller revenue base"
+    ]
+  },
+  "risks": [
+    {
+      "code": "",
+      "severity": "medium",
+      "message": "TAM inflation risk due to large market size claim",
+      "evidence_excerpt": "The total market size for millets as functional food is \u20b9312 Bn"
+    },
+    {
+      "code": "",
+      "severity": "low",
+      "message": "Metric inconsistency in unit economics breakdown",
+      "evidence_excerpt": "Naario has a unit economics breakdown of COGS 35%, Platform Margin 45%, Logistics 35%, and Naario Margin 35%"
+    },
+    {
+      "code": "",
+      "severity": "low",
+      "message": "No traction metrics provided",
+      "evidence_excerpt": ""
+    },
+    {
+      "code": "",
+      "severity": "low",
+      "message": "No litigation or PR issues found",
+      "evidence_excerpt": ""
+    },
+    {
+      "code": "",
+      "severity": "low",
+      "message": "No compliance or licensing issues found",
+      "evidence_excerpt": ""
+    }
+  ],
+  "term_sheet": {
+    "clauses": [
+      "1x liquidation preference",
+      "Board composition: 2 founders, 1 investor, 1 independent",
+      "Vesting period: 4 years for founders, 3 years for employees"
+    ],
+    "dilution": [
+      {
+        "holder": "Founders",
+        "post_pct": 72.41
+      },
+      {
+        "holder": "ESOP",
+        "post_pct": 2.82
+      },
+      {
+        "holder": "NewInvestor",
+        "post_pct": 24.77
+      }
+    ],
+    "plain": [
+      "Pro-rata rights for investors",
+      "Drag-along clause for founders"
+    ]
+  },
+  "sector": {
+    "kpis": [
+      "Revenue Growth Rate",
+      "Customer Acquisition Cost (CAC)",
+      "Customer Retention Rate",
+      "Average Order Value (AOV)",
+      "Monthly Active Users (MAU)",
+      "Food Safety and Quality Control Metrics",
+      "Supply Chain Efficiency Metrics",
+      "Menu Engineering Metrics"
+    ],
+    "baselines": {
+      "Revenue Growth Rate": "15%-20% YoY",
+      "Customer Acquisition Cost (CAC)": "20-30% of AOV",
+      "Customer Retention Rate": "70%-80%",
+      "Average Order Value (AOV)": "$15-$25",
+      "Monthly Active Users (MAU)": "20%-30% of total users"
+    },
+    "snippets": [
+      "Foodtech startups are revolutionizing the way we produce, process, and consume food, with the global market expected to reach $250B by 2026.",
+      "The rise of meal kits and grocery delivery has led to a 30% increase in online food sales in the past year alone.",
+      "Food waste reduction is a critical issue, with 1/3 of all food produced globally going to waste each year.",
+      "Personalized nutrition and meal planning are becoming increasingly popular, with 75% of consumers willing to pay more for tailored health and wellness solutions."
+    ]
+  },
+  "sources": [
+    "data/NaarioDeck2025.pdf",
+    "https://www.naario.com/pages/why-choose-naario"
+  ]
+}
