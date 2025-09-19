@@ -1,53 +1,13 @@
 import json
 import logging
-import boto3
+from llm_gemini import call_gemini_llm # Updated import
 import os
 import glob
-from botocore.exceptions import ClientError
 
+# (The rest of the script is updated to use the new LLM call)
 # --- Basic Setup ---
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
-
-# --- Bedrock LLM Integration ---
-BEDROCK_REGION = "us-east-1"
-client = None
-try:
-    client = boto3.client("bedrock-runtime", region_name=BEDROCK_REGION)
-except Exception as e:
-    logger.error(f"Failed to create Boto3 client. Please check your AWS configuration. Error: {e}")
-    client = None
-
-SUPERVISOR_PROMPT_TEMPLATE = """You are an expert VC analyst assistant.
-Use the provided context to complete the task.
-
-[CONTEXT]
-{context}
-
-[TASK]
-{user_prompt}
-"""
-
-def call_bedrock_llm(user_prompt: str, context: str = "") -> str:
-    # (This function is unchanged)
-    if not client:
-        return "ERROR: Boto3 client not initialized."
-    prompt = SUPERVISOR_PROMPT_TEMPLATE.format(context=context, user_prompt=user_prompt)
-    formatted_prompt = f"""
-<|begin_of_text|><|start_header_id|>user<|end_header_id|>
-{prompt}
-<|eot_id|>
-<|start_header_id|>assistant<|end_header_id|>
-"""
-    native_request = {"prompt": formatted_prompt, "max_gen_len": 2048, "temperature": 0.0}
-    request_body = json.dumps(native_request)
-    try:
-        response = client.invoke_model(modelId="meta.llama3-70b-instruct-v1:0", body=request_body)
-        model_response = json.loads(response["body"].read())
-        return model_response["generation"]
-    except (ClientError, Exception) as e:
-        logger.error(f"ERROR: Could not invoke LLM. Reason: {e}")
-        return f"ERROR: LLM invocation failed. Details: {e}"
 
 # --- Data Loading ---
 def load_deal_notes(path: str = "notes") -> list:
@@ -65,17 +25,17 @@ def load_deal_notes(path: str = "notes") -> list:
             logger.error(f"Failed to load or parse {file_path}. Error: {e}")
     return deal_notes
 
-# --- START OF FIX: Helper function for robust revenue access ---
+# --- Helper Function for Revenue ---
 def get_y1_revenue(deal):
-    """Safely gets Y1 revenue from a deal note, handling both dict and list traction data."""
+    # (This function is unchanged)
     traction_data = deal.get('facts', {}).get('traction', {})
     if isinstance(traction_data, dict):
         return traction_data.get('revenue', {}).get('Y1', 'N/A')
-    return 'N/A' # Return 'N/A' if traction is a list (like Naario's) or not found
-# --- END OF FIX ---
+    return 'N/A' 
 
 # --- Chatbot Core Logic ---
 def run_deal_screener_chatbot(user_query: str, all_deals: list):
+    # (This function is updated)
     if not all_deals:
         print("Cannot run the chatbot as no deal notes were loaded.")
         return
@@ -89,7 +49,7 @@ def run_deal_screener_chatbot(user_query: str, all_deals: list):
     User Query: "{user_query}"
     Respond with ONLY the JSON object and nothing else.
     """
-    structured_query_str = call_bedrock_llm(user_prompt=extraction_prompt)
+    structured_query_str = call_gemini_llm(user_prompt=extraction_prompt) # Using Gemini
     try:
         json_start = structured_query_str.find('{')
         json_end = structured_query_str.rfind('}') + 1
@@ -100,12 +60,12 @@ def run_deal_screener_chatbot(user_query: str, all_deals: list):
         print("\nSorry, I had trouble understanding your criteria. Please try a different phrasing.")
         return
 
-    # Filtering logic
+    # Filtering logic (same as before)
     matching_deals = []
     for deal in all_deals:
         match = True
         if 'min_y1_revenue_cr' in query_params and query_params['min_y1_revenue_cr'] is not None:
-            y1_revenue = get_y1_revenue(deal) # Use the new helper function
+            y1_revenue = get_y1_revenue(deal)
             if y1_revenue == 'N/A' or y1_revenue < query_params['min_y1_revenue_cr']:
                 match = False
         if 'sector' in query_params and query_params['sector'] is not None:
@@ -125,7 +85,6 @@ def run_deal_screener_chatbot(user_query: str, all_deals: list):
         print("\nNo companies found matching your criteria.")
         return
 
-    # --- START OF FIX: Use the helper function in the summary creation ---
     results_context = json.dumps([
         {
             "company": d.get("company"),
@@ -133,12 +92,11 @@ def run_deal_screener_chatbot(user_query: str, all_deals: list):
             "founders": [(f.get('name'), f.get('education')) for f in d.get('facts', {}).get('founders', [])]
         } for d in matching_deals
     ])
-    # --- END OF FIX ---
     
     presentation_prompt = f"""
     Based on the provided data, present the search results to the investor. The user's original query was: "{user_query}". For each company, provide a brief, compelling summary.
     """
-    final_response = call_bedrock_llm(user_prompt=presentation_prompt, context=results_context)
+    final_response = call_gemini_llm(user_prompt=presentation_prompt, context=results_context) # Using Gemini
     print("\n--- Search Results ---")
     print(final_response)
 
